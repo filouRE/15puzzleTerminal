@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{343008be-afab-4830-a07f-b15c5dbff3ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Board.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Direction.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Helpers.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Point.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tile.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UserInputs.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Board.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Direction.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Helpers.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Point.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Random.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tile.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UserInput.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\playPuzzle.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
